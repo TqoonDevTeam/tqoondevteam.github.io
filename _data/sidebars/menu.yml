@@ -284,7 +284,7 @@
     - title: "배송"
       items:
       - title: "우편번호"
-        url: ""
+        url: "/pages/devguide/delivery/ZipCode.html"
       - title: "HS코드"
         url: ""
       - title: "인보이스"
