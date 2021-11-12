@@ -205,8 +205,6 @@
         url: "/pages/devguide/payment/pg/gettingStart.html"
       - title: "신규 PG 개발"
         url: "/pages/devguide/payment/pg/pgDev.html"
-      - title: "PGBridge"
-        url: "/pages/devguide/payment/pg/pgb.html"
       - title: "PG관련 테이블"
         url: "/pages/devguide/payment/pg/PGTable.html"
       - title: "PG관련 클래스"
@@ -218,6 +216,22 @@
         url: "/pages/devguide/payment/FrexProcess/FrexTable.html"
       - title: "신용결제 프로세스"
         url: "/pages/devguide/payment/FrexProcess/FrexProcess.html"
+
+    - title: "PGB"
+      items:
+      - title: "PGB 개요"
+        url: "/pages/devguide/payment/pg/pgb/pgb.html"
+      - title: "PGB Table"
+        url: "/pages/devguide/payment/pg/pgb/pgbtable.html"
+      - title: "PGB Class"
+        items:
+          - title: "PayStart&PayComplete"
+            url: "/pages/devguide/payment/pg/pgb/pgbclass/classByPayAndPayComplete.html"
+          - title: "Cancel"
+            url: "/pages/devguide/payment/pg/pgb/pgbclass/cancel.html"
+          - title: "[Context]설정정보"
+            url: "/pages/devguide/payment/pg/pgb/pgbclass/context.html"
+
 
 - title: "비지니스가이드"  
   fa: "fa-globe"
