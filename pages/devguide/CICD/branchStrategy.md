@@ -34,5 +34,20 @@ dev 브랜치에는 bugfix 와 feature 브랜치들이 병합됩니다. dev 브
 >>bugfix 와 feature 는 이슈나, 추가 작업이 있는 경우 dev 브랜치에서 생성하여 작업합니다.
 각 브랜치에서 작업과 테스트를 마치면, dev 브랜치로 배포요청을 합니다. 
 
+## 브랜치 네이밍
 
+* 브런치 생성 규칙은 **[브런치 종류](#브랜치 종류)/이니셜/이슈번호_이슈내용**
 
+  * ex ) bugfix/ahg/12345_이슈내용
+
+  ![image](https://user-images.githubusercontent.com/40411714/146316800-4f1d95b4-7191-4956-8d84-b7514217f9d8.png)
+
+## commit 규칙
+
+* **화면단 백단별** / **기능별**로 commit할 것을 권장
+
+* 각 commit마다 **이슈번호_commit내용**으로 commit
+
+  * ex ) 12345 회원가입 개발 완료
+
+  ![image](https://user-images.githubusercontent.com/40411714/146317354-0c4e60e8-c267-474c-8a81-d1ddd9b5dc0c.png){}
