@@ -315,6 +315,8 @@
         url: ""
       - title: "배송비산정"
         url: ""
+      - title: "배송 예정일 계산"
+        url: "/pages/devguide/businessGuide/delivery/reservedDeliveryDate.html"
 
     - title: "전상점"
       items:
